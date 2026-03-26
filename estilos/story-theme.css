@@ -1,3 +1,28 @@
-h1 {
-    color: red;
+:root {
+    /* Paleta de colores semántica */
+    --color-primary: #0c0036;
+    --color-secondary: #ff8903;
+    --color-accent: #1c007d;
+
+    /* Estados de la narrativa */
+    --bg-inicio: #add1ff;
+    --bg-decision: #b1adff;
+    --bg-final-positivo: #76a87d;
+    --bg-final-negativo: #cf9191;
+
+    /* Tipografía */
+    --font-heading: '...', serif;
+    --font-body: '...', sans-serif;
+    --font-interactive: '...', system-ui;
+
+    /* Espaciado consistente */
+    --spacing-xs: 0.5rem;
+    --spacing-sm: 1rem;
+    --spacing-md: 2rem;
+    --spacing-lg: 3rem;
+
+    /* Animaciones */
+    --transition-fast: 200ms ease-in-out;
+    --transition-normal: 400ms ease-in-out;
+    --transition-slow: 600ms ease-in-out;
 }
